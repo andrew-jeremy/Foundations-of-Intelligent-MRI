@@ -136,3 +136,17 @@ A recommended organization is the following:
 ├── scripts/
 ├── tests/
 └── outputs/
+
+| Book topic                               | Suggested file                                    |
+|------------------------------------------|---------------------------------------------------|
+| Low-rank dynamic MRI                     | `src/reconstruction/low_rank_dynamic_mri.py`      |
+| Pulse-sequence discovery with RL         | `src/rl/pulse_sequence_discovery.py`              |
+| Optimal MRI acceleration                 | `src/reconstruction/optimal_acceleration.py`      |
+| Spatiotemporal GNNs                      | `src/graph_models/spatiotemporal_gnn.py`          |
+| Unified reconstruction frameworks        | `src/reconstruction/unified_reconstruction.py`    |
+| Transformer-based motion models          | `src/motion/transformer_motion_models.py`         |
+| Physics-constrained generative inference | `src/generative/physics_constrained_inference.py` |
+| RL for adaptive sampling                 | `src/rl/adaptive_sampling.py`                     |
+| Diffusion MRI reconstruction             | `src/generative/diffusion_reconstruction.py`      |
+| AI-driven k-space trajectory design      | `src/trajectory/trajectory_design.py`             |
+| Bayesian MRI parameter estimation        | `src/bayesian/bayesian_parameter_estimation.py`   |
