@@ -149,4 +149,5 @@ A recommended organization is the following:
 | RL for adaptive sampling                 | `src/rl/adaptive_sampling.py`                     |
 | Diffusion MRI reconstruction             | `src/generative/diffusion_reconstruction.py`      |
 | AI-driven k-space trajectory design      | `src/trajectory/trajectory_design.py`             |
+| Physics-informed Shimming AI             | `src/shimming/PINN_based_Shimming.py`             |
 | Bayesian MRI parameter estimation        | `src/bayesian/bayesian_parameter_estimation.py`   |
